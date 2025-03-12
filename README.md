@@ -159,7 +159,7 @@ client.download_csv(camera, start_local="2025-01-01T00:00:00", end_local="2025-0
 
 ### 4. What is the difference between HDR and CC?
 - **HDR (High Dynamic Range)**: Sky imagery with enhanced contrast for better cloud detection.
-- **CC (Cloud Cover)**: Cloud cover retrieveed from sky images in % and oktas.
+- **CC (Cloud Cover)**: Cloud cover retrieved from sky images in % and oktas.
 
 ---
 
