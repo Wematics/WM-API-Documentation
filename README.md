@@ -44,7 +44,7 @@ print("Selected day:", day)
 
 ### 4. Fetch HDR Files for a Specific Date (UTC)
 ```python
-files = client.list_dates(camera, "HDR", day, "utc")
+files = client.list_files(camera, "HDR", day, "utc")
 file = files['files'][50]
 print(f"Files for {camera}, HDR on {day}:", files['files'])
 print("Total HDR files:", len(files['files']))
@@ -226,11 +226,5 @@ client.download_file(camera, "GHI", file, '', 'local')  # utc or local
 ---
 
 ## Support
-For further assistance, please contact our support team or visit our [support page](https://support.wematics.com).
+For further assistance, please contact our support team.
 
-For any issues, inquiries, or bug reports, please contact Wematics support or visit our [website](https://www.wematics.com).
-
----
-
-## License
-This project is licensed under the **MIT License**.
