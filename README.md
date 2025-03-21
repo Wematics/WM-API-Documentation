@@ -34,9 +34,9 @@ print(f"Variables for {camera}:", variables['variables'])
 
 ## HDR Image Handling
 
-### 3. Retrieve Available HDR Image Dates (Local)
+### 3. Retrieve Available HDR Image Dates
 ```python
-dates = client.list_dates(camera, "HDR", "local")
+dates = client.list_dates(camera, "HDR")
 day = dates['dates'][-1]
 print("Available HDR Dates:", dates['dates'])
 print("Selected day:", day)
