@@ -147,9 +147,8 @@ client.download_csv(camera, start_local="2025-01-01T00:00:00", end_local="2025-0
 - **HDR (High Dynamic Range)**: Sky imagery with enhanced contrast for better cloud detection.
 - **CC (Cloud Cover)**: Cloud cover retrieved from sky images in percentage and oktas.
 
-Here you can see a preview of our cloud masks:  
+Preview of our cloud masks:  
 [![Cloud Mask Preview](imgs/hdr_mask_preview.png)](https://www.youtube.com/watch?v=Uk5QLpjV0JI "Cloud Mask Preview")
-
 
 ---
 
