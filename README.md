@@ -148,7 +148,8 @@ client.download_csv(camera, start_local="2025-01-01T00:00:00", end_local="2025-0
 - **CC (Cloud Cover)**: Cloud cover retrieved from sky images in percentage and oktas.
 
 Here you can see a preview of our cloud masks:  
-[![Cloud Mask Preview](WM-API-Documentation/imgs/hdr_mask_preview.png)](https://www.youtube.com/watch?v=Uk5QLpjV0JI "Cloud Mask Preview")
+[![Cloud Mask Preview](imgs/hdr_mask_preview.png)](https://www.youtube.com/watch?v=Uk5QLpjV0JI "Cloud Mask Preview")
+
 
 ---
 
